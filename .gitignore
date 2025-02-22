@@ -1,0 +1,26 @@
+# Fisiere și foldere specifice Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Mediu virtual (exclude tot folderul .venv)
+.venv/
+venv/
+
+# Setări și fișiere sensibile
+# .env
+# *.sqlite3
+# instance/
+
+# Fișiere generate de editori
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Loguri și fișiere temporare
+logs/
+*.log
+*.bak
+*.tmp
