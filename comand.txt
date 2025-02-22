@@ -4,3 +4,8 @@ Migrate db
 flask db init
 flask db migrate -m "Added new field in model"
 flask db upgrade
+
+
+
+GIT 
+git pull origin main
