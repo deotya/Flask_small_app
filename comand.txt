@@ -1,0 +1,6 @@
+Migrate db
+###first init:
+
+flask db init
+flask db migrate -m "Added new field in model"
+flask db upgrade
